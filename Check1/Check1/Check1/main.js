@@ -1,18 +1,13 @@
 //問1:isEven関数を実行して、以下の配列から偶数だけが出力されるように実装してください。
 let numbers = [2, 5, 12, 13, 15, 18, 22];
 //ここに答えを実装してください。↓↓↓
+let num = 18;
 
 function isEven(num) {
-    if (num[i] % 2 == 0); {
-        return true;
-    }
-}
-let numbers = [2, 5, 12, 13, 15, 18, 22];
-console.log(numbers);
-for (let i = 0; i <= numbers.length - 1; i++) {
+    return (num % 2) === 0;
+};
+console.log(num + 'は偶数です');
 
-    console.log(numbers[i].num + 'は偶数です');
-}
 
 
 //問2:以下の要件を満たすように実装してください。
