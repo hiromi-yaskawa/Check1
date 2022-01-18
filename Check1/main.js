@@ -4,14 +4,17 @@ let numbers = [2, 5, 12, 13, 15, 18, 22];
 
 function isEven(num) {
     if (num[i] % 2 == 0); {
-        return true;
+        return false;
     }
 }
 let numbers = [2, 5, 12, 13, 15, 18, 22];
+
 console.log(numbers);
 for (let i = 0; i <= numbers.length - 1; i++) {
-
-    console.log(numbers[i].num + 'は偶数です');
+    if (numbers % 2 == 0) {
+        continue;
+    }
+    console.log(numbers[i] + "は偶数です");
 }
 
 
